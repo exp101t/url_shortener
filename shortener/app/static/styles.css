@@ -2,6 +2,10 @@ html, body, #outer {
     height: 100%;
 }
 
+body {
+    margin: 0;
+}
+
 #outer {
     display: flex;
     justify-content: center;
