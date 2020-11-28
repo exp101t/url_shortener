@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Shortener</title>
+        <link rel="stylesheet" href="static/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+        <script src="static/app.js"></script>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="content">
+                <div id="header">Shorten a link</div>
+                <div id="inputs">
+                    <input type="text" id="input_url" placeholder="https://google.com/">
+                    <span id="arrow">></span>
+                    <input type="text" id="output_url" placeholder="{{proto}}://{{base}}/go/qwerty" readonly>
+                </div>
+                <div id="buttons">
+                    <label>
+                        <span id="clipboard_label">save to clipboard</span>
+                        <input type="checkbox" id="clipboard" checked>
+                    </label>
+                    <button id="shorten_button">Shorten</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

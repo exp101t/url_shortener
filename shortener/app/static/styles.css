@@ -1,0 +1,57 @@
+html, body, #outer {
+    height: 100%;
+}
+
+#outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+#inputs {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#arrow {
+    font-family: 'Montserrat';;
+}
+
+#inputs input {
+    font-family: 'Montserrat';
+    height: 20px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    text-overflow: ellipsis;
+    padding: 5px 10px;
+}
+
+#buttons {
+    vertical-align: middle;
+    float: right;
+}
+
+#buttons button {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px;
+    min-width: 100px;
+}
+
+#buttons label {
+    font-family: 'Montserrat';
+    font-size: 10pt;
+    vertical-align: middle;
+}
+
+#clipboard, #clipboard_label {
+    vertical-align: middle;
+}
